@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/95c0fd3156.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="margin: 0px">
+    <div class="page">
+      <div class="header">
+        <div class="headerContent">
+          <div class="logo"><img src="./res/logo.png" alt="logo" /></div>
+          <div class="address">
+            <p>
+              г. Воронеж, пер. Купянский, д. 11, офис 301A +7 (473) 292-22-95
+            </p>
+          </div>
+          <div class="menu">
+            <div class="menu-button" onclick="menuButtonClick()">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+      </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div id="menu-box">text</div>
+        <div class="photo">
+          <img src="./res/main_photo.jpg" alt="" />
+        </div>
+        <div class="bigPhoto">
+          <div class="bigPhoto-text">
+            <p>
+              Помощь юристов и адвокатов.<br />Защищаем интересы бизнеса<br />и
+              частных лиц более 10 лет
+            </p>
+          </div>
+          <div class="buttons">
+            <button class="bigPhoto-callButton">позвонить</button>
+            <button class="bigPhoto-orderCallButton">заказать звонок</button>
+          </div>
+        </div>
+        <div class="services">
+          <button>Защита бизнеса</button>
+          <button>Уголовные дела</button>
+          <button>Семейные споры</button>
+          <button>Разбор ДТП</button>
+          <button>Защита прав потребителей</button>
+          <button>Залития</button>
+          <div class="services-text">
+            другие категории дел
+            <span class="services-text-arrow">&#10230;</span>
+          </div>
+        </div>
+        <div class="testForCost">
+          <div class="icons">
+            <div class="icon1">
+              <img src="./res/Tilda_Icons_9ta_docs.svg" alt="" />
+              <p class="icons-big-text"><b>Договор</b></p>
+              <p class="icons-small-text">без пунктов со звездочкой</p>
+            </div>
+            <div class="icon2">
+              <img src="./res/Tilda_Icons_16cf_rocket.svg" alt="" />
+              <p class="icons-big-text"><b>Оперотивность</b></p>
+              <p class="icons-small-text">мы бережём ваше время</p>
+            </div>
+            <div class="icon3">
+              <img src="./res/Tilda_Icons_16cf_handshake.svg" alt="" />
+              <p class="icons-big-text"><b>Бесплатно</b></p>
+              <p class="icons-small-text">
+                оказываем услуги по определенным категориям дел
+              </p>
+            </div>
+          </div>
+          <div class="test-photo">
+            <img src="./res/Тест.png" alt="" />
+          </div>
+          <div class="test-text">
+            <p>
+              <b>ПРОЙДИТЕ ТЕСТ И УЗНАЙТЕ</b><br />
+              стоимость услуг по вашему делу
+            </p>
+            <button>пройти тест</button>
+          </div>
+        </div>
+        <div class="consultation">
+          <p class="consultation-big-text">
+            Мы всегда рассказываем действительное положение вещей «без прикрас»
+          </p>
+          <p class="consultation-small-text">
+            Наш честный ответ бережет ваше время и деньги
+          </p>
+          <div class="consultation-button-block">
+            <button class="consultation-button">
+              записаться на консультацию
+            </button>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="reviews-content">
+            <div class="reviews-text">
+              Нас приглашают в<br />
+              качестве экспертов<br />ведущие СМИ
+            </div>
+            <div class="reviews-photo">
+              <img src="./res/reviews_photo.png" alt="" />
+            </div>
+          </div>
+          <div class="reviews-links">
+            <a
+              style="display: block; text-decoration: none"
+              href="https://bloknot-voronezh.ru/news/khitruyu-rabotu-kamery-fiksatsii-na-m-4-don-raskry-1270627"
+              target="_blank"
+            >
+              <div class="reviews-links-element">
+                <p>штраф за среднюю скорость</p>
+              </div>
+            </a>
+            <a
+              style="display: block; text-decoration: none"
+              href="https://vestivrn.ru/news/2018/04/10/chto-delat-voronezhtsam-esli-mashina-vletela-v-dorozhnyiy-uhab-i-slomalas_2018-4-10_21-35/"
+              target="_blank"
+            >
+              <div class="reviews-links-element">
+                <p>ДТП из-за ямы. Как получить компенсацию</p>
+              </div>
+            </a>
+            <a
+              style="display: block; text-decoration: none"
+              href="https://bloknot-voronezh.ru/news/kak-deystvovat-pri-zatoplenii-kvartiry-rasskazal-e-1327983"
+              target="_blank"
+            >
+              <div class="reviews-links-element">
+                <p>Как действовать при затоплении квартиры</p>
+              </div>
+            </a>
+            <a
+              style="display: block; text-decoration: none"
+              href="https://bloknot-voronezh.ru/news/v-sluchae-dtp-mozhno-idti-v-sud-yurist-prokommenti"
+              target="_blank"
+            >
+              <div class="reviews-links-element">
+                <p>
+                  Временная разметка на пр.Труда: в случае ДТП можно идти в суд
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="map">
+          <div class="map-info">
+            <div class="map-info-text">
+              КОНТАКТЫ НАШЕГО ОФИСА<br />Переулок Купянский, д. 11, офис 301а, 3
+              этаж<br />
+              +7 (473) 292-22-95<br />
+              +7 (952) 953-32-95<br />
+              +7 (930) 405-33-31<br />
+              info@36av.ru
+            </div>
+            <div class="map-info-text">БЕСПЛАТНАЯ ПАРКОВКА</div>
+            <div class="map-info-text">
+              РЕЖИМ РАБОТЫ<br />
+              ПН-ПТ: с 9:00 до 18:00
+            </div>
+          </div>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abd347f4eef19c6150d6f13a52ee48e343439a47be6586f21c2d7d22bff1d93f1&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"
+          ></script>
+        </div>
+        <div class="footer">
+          <div class="footer-logo">
+            <img src="./res/footer-logo.png" alt="" />
+          </div>
+          <div class="footer-address">
+            Юридическая компания<br />"Черных и партнеры"<br />@36av.ru<br />
+            г. Воронеж, Переулок Купянский, д. 11,<br />
+            офис 301а, 3 этаж
+          </div>
+          <div class="footer-links">
+            <div class="phone-number">+7 (473) 292-22-95</div>
+            <div class="footer-buttons">
+              <a href="https://vk.com/36av_vrn" target="_blank" class="social-button vk"><i class="fab fa-vk"></i></a>
+              <a href="https://t.me/+79529533295" target="_blank" class="social-button telegram"><i class="fab fa-telegram"></i></i></a>
+              <a href="viber://chat?number=+79529533295" target="_blank" class="social-button viber"><i class="fab fa-viber"></i></i></a>
+              <a href="whatsapp://send?phone=+79529533295" target="_blank" class="social-button whatsapp"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://www.instagram.com/chernykh_partners/" target="_blank" class="social-button instagram"><i class="fab fa-instagram"></i></i></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
