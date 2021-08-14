@@ -345,7 +345,7 @@
 }
 .test-text {
   position: absolute;
-  top: 60vh;
+  bottom: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,7 +397,8 @@
   display: flex;
   flex-direction: column;
   background-color: var(--consultation-background-color);
-  padding-bottom: 6vh;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 .consultation-big-text {
   align-self: center;
@@ -415,8 +416,10 @@
   width: 40vw;
 }
 .consultation-button-block {
+  display: flex;
   align-self: center;
-  padding-right: 21vw;
+  width: 40vw;
+  /* padding-right: 20vw; */
 }
 .consultation-button {
   margin-right: 20vw;
@@ -485,8 +488,9 @@
   background-image: url(./res/Снимок.JPG);
   background-repeat: no-repeat;
   background-position: center;
-  width: 250px;
-  height: 160px;
+  /* width: 250px; */
+  width: 19vw;
+  height: 26vh;
   display: flex;
   align-items: center;
   border: lightslategray;
@@ -500,15 +504,16 @@
 .reviews-links-element p {
   padding: 4px;
   margin: 3px;
-  width: 250px;
+  /* width: 250px; */
+  width: 19vw;
   background-color: rgba(24, 22, 23, 0.5);
   color: #ffffff;
   font-size: 12px;
 }
 .map-info {
   position: absolute;
-  bottom: 250px;
-  left: 150px;
+  bottom: 40vh;
+  left: 10vw;
   height: 300px;
   width: 250px;
   z-index: 1;
@@ -524,19 +529,20 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   height: fit-content;
   background-color: var(--footer-background-color);
   color: #ffffff;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 40px 20px 40px;
 }
 .footer-logo {
-  margin-right: 200px;
-  margin-left: 100px;
+  /* margin-right: 200px;
+  margin-left: 100px; */
   align-self: center;
 }
 .footer-address {
-  margin-right: 200px;
+  /* margin-right: 200px; */
 }
 .phone-number {
   font-size: 25px;
