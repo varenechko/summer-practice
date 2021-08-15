@@ -328,6 +328,8 @@
   width: 10vw;
   justify-self: center;
   align-self: center;
+  filter: invert(82%) sepia(36%) saturate(357%) hue-rotate(2deg) brightness(76%)
+    contrast(94%);
 }
 .icons-small-text {
   font-size: 2vh;
@@ -339,6 +341,7 @@
   text-align: center;
   font-size: 3.5vh;
   margin: 10px 0px;
+  font-weight: 10;
 }
 .test-photo img {
   width: 50vw;
@@ -503,12 +506,43 @@
 }
 .reviews-links-element p {
   padding: 4px;
-  margin: 3px;
+  margin: 0px 3px 3px 3px;
   /* width: 250px; */
   width: 19vw;
   background-color: rgba(24, 22, 23, 0.5);
   color: #ffffff;
   font-size: 12px;
+}
+.play-btn {
+  position: absolute;
+  bottom: 19vh;
+  width: 19vw;
+  height: 18vh;
+  margin: 0;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  background-color: rgba(24, 22, 23, 0.3);
+  z-index: 1;
+  transition: 1s;
+}
+#play-btn-link {
+  display: block;
+  margin: auto;
+}
+
+.play-btn__svg {
+  transition: 1s;
+  fill: #9b9a9a;
+  opacity: 0.9;
+}
+
+.play-btn:hover .play-btn__svg {
+  fill: var(--main-text-color);
+  opacity: 1;
+}
+.play-btn:hover {
+  background-color: rgba(24, 22, 23, 0);
 }
 .map-info {
   position: absolute;
