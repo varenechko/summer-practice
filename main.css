@@ -14,7 +14,7 @@
   /* height: 100%; */
   width: 100%;
   max-width: 1920px;
-  background-color: gray;
+  background-color: var(--servises-background-color);
   display: inline-block;
   overflow: visible;
   font-family: "Geometria";
@@ -806,7 +806,155 @@
     bottom: 27vh;
   }
   .map-info {
-    bottom: 450px;
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+    background-color: var(--servises-background-color);
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-address {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer-links {
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .page {
+    overflow: hidden;
+  }
+  .headerContent {
+    flex-wrap: wrap;
+  }
+  .menu-button {
+    margin-right: 40px;
+  }
+  .logo > img {
+    width: 100px;
+    height: auto;
+  }
+  .address {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .menu-button {
+    margin: 0 auto;
+  }
+  #span2,
+  #span3 {
+    width: 26px;
+  }
+  .photo > img {
+    display: block;
+    width: auto;
+    height: 300px;
+    position: relative;
+    right: 230px;
+  }
+  .buttons {
+    margin-top: 30px;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .bigPhoto {
+    padding-left: 40px;
+  }
+  .bigPhoto-text {
+    font-size: 14px;
+    width: 200px;
+  }
+  .bigPhoto-callButton {
+    width: 190px;
+    margin-bottom: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  .bigPhoto-orderCallButton {
+    margin-left: 7px;
+    margin-right: 0;
+  }
+  .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .services > button {
+    width: 190px;
+    font-size: 18px;
+  }
+  .services-text {
+    padding-top: 20px;
+    font-size: 16px;
+    padding-left: 90px;
+  }
+  .icons {
+    flex-direction: column;
+    width: 300px;
+  }
+  .icons-big-text {
+    font-size: 20px;
+  }
+  .icons-small-text {
+    font-size: 16px;
+    width: inherit;
+  }
+  .icon2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .icon1 img,
+  .icon2 img,
+  .icon3 img {
+    width: 100px;
+  }
+  .test-photo > img {
+    width: 80vw;
+  }
+  .test-text {
+    bottom: 7vh;
+  }
+  .test-text > p > b {
+    font-size: 16px;
+  }
+  .test-text > p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .test-text > button {
+    width: 190px;
+  }
+  .consultation-big-text {
+    font-size: 20px;
+    text-align: center;
+  }
+  .consultation-small-text {
+    text-align: center;
+    font-size: 16px;
+  }
+  .consultation-button-block {
+    justify-content: center;
+  }
+  .reviews-content {
+    flex-direction: column;
+  }
+  .reviews-text {
+    font-size: 20px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .reviews-photo img {
+    width: 200px;
+  }
+  .play-btn {
+    width: 240px;
+    height: 80px;
+    bottom: 27.5vh;
   }
   .footer {
     flex-direction: column;
