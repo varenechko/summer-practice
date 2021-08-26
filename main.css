@@ -166,7 +166,7 @@
 }
 .bigPhoto {
   width: 70%;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   padding: 0px 0px 0px 18.5vw;
   position: absolute;
@@ -275,7 +275,7 @@
   background-color: white;
   color: black;
   border: 0px;
-  font-size: 3vh;
+  font-size: 2.3vw;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -750,7 +750,7 @@
     position:relative;
   }
   .bigPhoto{
-    top:10px;
+    top:20px;
   }
   .bigPhoto-callButton {
     width: 190px;
@@ -801,7 +801,7 @@
     bottom: 12vmin;
   }
   .test-text > p > b {
-    font-size: 20px;
+    font-size: 4.2vw;
   }
   .test-text > p {
     font-size: 16px;
@@ -833,27 +833,27 @@
     text-align: center;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .page {
     overflow: hidden;
   }
   .headerContent {
+    width: inherit;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   .menu-button {
-    margin-right: 40px;
+    justify-self:flex-end;
+  }
+  .logo{
+    justify-self: center;
   }
   .logo > img {
     width: 100px;
     height: auto;
   }
   .address {
-    font-size: 14px;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .menu-button {
-    margin: 0 auto;
+    display: none;
   }
   #span2,
   #span3 {
@@ -865,6 +865,9 @@
     height: 300px;
     position: relative;
     right: 230px;
+  }
+  .bigPhoto{
+    top:40px;
   }
   .buttons {
     margin-top: 30px;
