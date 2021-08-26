@@ -646,7 +646,12 @@
   transition: all 0.35s ease-in-out;
   color: white;
 }
-
+@media (max-width: 1024px) {
+  .play-btn{
+    height: 110px;
+    bottom: 115px;
+  }
+}
 @media (max-width: 768px) {
   .menu-button {
     margin-right: 40px;
