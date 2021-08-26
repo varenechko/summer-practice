@@ -345,7 +345,7 @@
 }
 .test-text {
   position: absolute;
-  bottom: 25vh;
+  bottom: 16vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -489,6 +489,8 @@
   background-image: url(./res/Снимок.JPG);
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 250px;
+  max-height: 160px;
   width: 19vw;
   height: 26vh;
   display: flex;
@@ -506,13 +508,16 @@
   margin: 0px 3px 3px 3px;
   /* width: 250px; */
   width: 19vw;
+  max-width: 250px;
   background-color: rgba(24, 22, 23, 0.5);
   color: #ffffff;
   font-size: 12px;
 }
 .play-btn {
   position: absolute;
-  bottom: 19vh;
+  bottom: 99px;
+  max-width: 250px;
+  max-height: 130px;
   width: 19vw;
   height: 18vh;
   margin: 0;
@@ -543,7 +548,7 @@
 }
 .map-info {
   position: absolute;
-  bottom: 40vh;
+  bottom: 220px;
   left: 10vw;
   height: 300px;
   width: 250px;
@@ -670,7 +675,7 @@
     margin-right: 20px;
   }
   .test-text {
-    bottom: 13vh;
+    bottom: 12vmin;
   }
   .test-text > p > b {
     font-size: 20px;
@@ -704,10 +709,11 @@
   }
   .play-btn {
     width: 240px;
-    height: 90px;
+    height: 100px;
+    bottom: 135px;
   }
   .map-info {
-    bottom: 450px;
+    bottom: 420px;
   }
   .footer {
     flex-direction: column;
@@ -729,8 +735,6 @@
   .menu-button {
     margin-right: 40px;
   }
-  .logo {
-  }
   .logo > img {
     width: 140px;
     height: auto;
@@ -741,6 +745,12 @@
   }
   .buttons {
     flex-direction: column;
+  }
+  .photo{
+    position:relative;
+  }
+  .bigPhoto{
+    top:10px;
   }
   .bigPhoto-callButton {
     width: 190px;
@@ -788,7 +798,7 @@
     width: 65vw;
   }
   .test-text {
-    bottom: 15vh;
+    bottom: 12vmin;
   }
   .test-text > p > b {
     font-size: 20px;
@@ -802,8 +812,7 @@
   }
   .play-btn {
     width: 240px;
-    height: 80px;
-    bottom: 27vh;
+    height: 100px;
   }
   .map-info {
     position: relative;
@@ -917,7 +926,7 @@
     width: 80vw;
   }
   .test-text {
-    bottom: 7vh;
+    /* bottom: 7vh;    */
   }
   .test-text > p > b {
     font-size: 16px;
@@ -953,8 +962,8 @@
   }
   .play-btn {
     width: 240px;
-    height: 80px;
-    bottom: 27.5vh;
+    /* height: 80px; */
+    /* bottom: 27.5vh; */
   }
   .footer {
     flex-direction: column;
