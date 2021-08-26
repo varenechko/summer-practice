@@ -838,6 +838,16 @@
     margin: auto;
   }
 }
+@media (max-width: 394px) {
+  .menu-button{
+    justify-self: center;
+    margin-left: 40px;
+  }
+  #span2,
+  #span3 {
+    width: 26px;
+  }
+}
 @media (max-width: 375px) {
   .page {
     overflow: hidden;
@@ -860,10 +870,7 @@
   .address {
     display: none;
   }
-  #span2,
-  #span3 {
-    width: 26px;
-  }
+
   .photo > img {
     display: block;
     width: auto;
