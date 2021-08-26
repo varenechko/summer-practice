@@ -833,6 +833,11 @@
     text-align: center;
   }
 }
+@media (max-width: 444px) {
+  .address{
+    margin: auto;
+  }
+}
 @media (max-width: 375px) {
   .page {
     overflow: hidden;
