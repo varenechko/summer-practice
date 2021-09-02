@@ -839,7 +839,7 @@
     margin: auto;
   }
 }
-@media (max-width: 394px) {
+@media (max-width: 412px) {
   .menu-button{
     justify-self: center;
     margin-left: 40px;
@@ -940,9 +940,6 @@
   }
   .test-photo > img {
     width: 80vw;
-  }
-  .test-text {
-    /* bottom: 7vh;    */
   }
   .test-text > p > b {
     font-size: 16px;
