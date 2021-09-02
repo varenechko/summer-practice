@@ -77,10 +77,6 @@
 .address p {
   margin-top: 1rem;
 }
-/* .menu {
-  width: 50px;
-} */
-
 #menu-box.active {
   visibility: visible;
   opacity: 1;
@@ -275,7 +271,7 @@
   background-color: white;
   color: black;
   border: 0px;
-  font-size: 2.3vw;
+  font-size: 2.1vw;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -345,7 +341,7 @@
 }
 .test-text {
   position: absolute;
-  bottom: 16vmin;
+  bottom: 17vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
