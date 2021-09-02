@@ -839,7 +839,7 @@
     margin: auto;
   }
 }
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   .menu-button{
     justify-self: center;
     margin-left: 40px;
@@ -848,8 +848,8 @@
   #span3 {
     width: 26px;
   }
-}
-@media (max-width: 375px) {
+} */
+@media (max-width: 414px) {
   .page {
     overflow: hidden;
   }
