@@ -642,10 +642,10 @@
   transition: all 0.35s ease-in-out;
   color: white;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1222px) {
   .play-btn{
     height: 110px;
-    bottom: 115px;
+    bottom: 116px;
   }
 }
 @media (max-width: 768px) {
