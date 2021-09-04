@@ -849,7 +849,7 @@
     width: 26px;
   }
 } */
-@media (max-width: 414px) {
+@media (max-width: 444px) {
   .page {
     overflow: hidden;
   }
@@ -860,6 +860,10 @@
   }
   .menu-button {
     justify-self:flex-end;
+  }
+  #span2,
+  #span3 {
+    width: 26px;
   }
   .logo{
     justify-self: center;
