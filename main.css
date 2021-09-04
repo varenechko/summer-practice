@@ -979,8 +979,8 @@
   }
   .play-btn {
     width: 240px;
-    /* height: 80px; */
-    /* bottom: 27.5vh; */
+    height: 80px;
+    bottom: 157px;
   }
   .footer {
     flex-direction: column;
